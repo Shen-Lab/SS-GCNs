@@ -1,2 +1,2 @@
 # SS-GCNs
-Self-supervision on graph convolutional networks
+Multi-task self-supervision on graph convolutional networks.
