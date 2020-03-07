@@ -35,7 +35,7 @@ def run(args, seed):
 
     reduced_dim = args['reduced_dimension']
     ss_labels, _, _ = features.svd()
-    ss_labels = ss_labels[:, reduced_dim].cuda()
+    ss_labels = ss_labels[:, :reduced_dim].cuda()
 
     net_gcn = net.net_gcn_multitask(embedding_dim=args['embedding_dim'], ss_dim=args['reduced_dimension'])
     net_gcn = net_gcn.cuda()
