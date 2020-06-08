@@ -4,5 +4,7 @@
 
 [When Does Self-Supervision Helps Graph Convolutional Networks?]()
 
-Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Zhangyang Wang, Yang Shen
+Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Zhangyang Wang, and Yang Shen
+
+in ICML 2020.
 
