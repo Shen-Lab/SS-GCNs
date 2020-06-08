@@ -6,5 +6,5 @@ Code for [When Does Self-Supervision Helps Graph Convolutional Networks?]()
 
 Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Zhangyang Wang, Yang Shen
 
-In ICML 2020
+In ICML 2020.
 
