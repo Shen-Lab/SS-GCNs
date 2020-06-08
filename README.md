@@ -1,7 +1,8 @@
-# SS-GCNs
-Multi-task self-supervision on graph convolutional networks.
-- [x] SS-GCN
-- [ ] SS-GMNN
-- [ ] SS-GraphMix
-- [ ] SS-GCN in adversarial training
+# When Does Self-Supervision Helps Graph Convolutional Networks
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+[When Does Self-Supervision Helps Graph Convolutional Networks]()
+
+Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Zhangyang Wang, Yang Shen
 
