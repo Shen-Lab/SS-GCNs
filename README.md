@@ -18,7 +18,7 @@ TBD
 
 * [GMNN and GraphMix with self-supervision]()
 
-* [GCN with self-supervision in adversarial defense]()
+* [GCN with self-supervision in adversarial defense](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCN-adv)
 
 ## Citation
 

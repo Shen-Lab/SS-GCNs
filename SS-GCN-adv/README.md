@@ -1,6 +1,6 @@
 ## Dependencies
 
-Please setup the environment following the [instruction](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCNs#dependencies).
+The enviroment is the same as in [SS-GCNs](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCNs).
 
 ## Training \& Evaluation
 
