@@ -4,7 +4,7 @@ The enviroment is the same as in [SS-GCNs](https://github.com/Shen-Lab/SS-GCNs/t
 
 ## Training \& Evaluation
 
-**GCN and GCN with self-supervision:**
+**GCN under adversarial attacks:**
 
 ```shell
 python main.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5
