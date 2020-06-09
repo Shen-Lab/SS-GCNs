@@ -1,0 +1,12 @@
+README.md
+setup.py
+nettack/GCN.py
+nettack/__init__.py
+nettack/nettack.py
+nettack/utils.py
+nettack.egg-info/PKG-INFO
+nettack.egg-info/SOURCES.txt
+nettack.egg-info/dependency_links.txt
+nettack.egg-info/not-zip-safe
+nettack.egg-info/requires.txt
+nettack.egg-info/top_level.txt
