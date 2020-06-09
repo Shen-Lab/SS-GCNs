@@ -1,12 +1,10 @@
 ## Dependencies
 
-Please setup the environment following Section 3 (Setup Python environment for GPU) in the [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md).
-
-Then install the dependencies related to graph partitioning:
+Please setup the environment following Section 3 (Setup Python environment for GPU) in the [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md). Then install the dependencies related to graph partitioning with the following code:
 
 ```
 sudo apt-get install libmetis-dev
-pip install METIS
+pip install METIS==0.2a.4
 ```
 
 
