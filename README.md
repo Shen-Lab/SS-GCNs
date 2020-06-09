@@ -12,13 +12,13 @@ In ICML 2020.
 
 TBD
 
-## Dependencies
+## Experiments
 
-TBD
+* [GCN, GAT and GIN with self-supervision](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCNs)
 
-## Training \& Evaluation
+* [GMNN and GraphMix with self-supervision]()
 
-TBD
+* [GCN with self-supervision in adversarial defense]()
 
 ## Citation
 
