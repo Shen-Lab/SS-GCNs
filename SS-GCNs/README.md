@@ -25,7 +25,7 @@ python main_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight
 
 ```
 
-Our code also supports hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, for example running the following code:
+Our code supports hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, for example running the following code:
 
 ```
 python main_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --grid-search True
@@ -69,7 +69,9 @@ python main_gingat_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 -
 
 ```
 
+Hyper-parameter for self-supervision is also supported with the same usage as above.
+
 ## Acknowledgements
 
-TBD
+The implementations of GCN, GAT and GIN are references to [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn) and [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
 
