@@ -96,7 +96,7 @@ if __name__ == "__main__":
         acc_test = np.zeros(50)
         for seed in range(50):
             acc_val[seed], acc_test[seed] = run(args, seed)
-            # print('seed', seed, 'val', acc_val[seed], 'test', acc_test[seed])
+            print('seed', seed, 'val', acc_val[seed], 'test', acc_test[seed])
 
         print('finish')
         print('val mean', acc_val.mean(), 'val std', acc_val.std())
