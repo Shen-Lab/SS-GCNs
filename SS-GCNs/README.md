@@ -43,7 +43,6 @@ python main_gingat.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weig
 python main_gingat.py --dataset citeseer --embedding-dim 3703 16 6 --lr 0.01 --weight-decay 5e-4 --net gat
 python main_gingat.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight-decay 5e-4 --net gat
 
-
 python main_gingat_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --loss-weight 0.7 --net gin
 python main_gingat_clu.py --dataset citeseer --embedding-dim 3703 16 6 --lr 0.01 --weight-decay 5e-4 --loss-weight 0.6 --net gin
 python main_gingat_clu.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight-decay 5e-4 --loss-weight 0.9 --net gin
