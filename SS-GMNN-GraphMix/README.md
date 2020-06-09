@@ -2,7 +2,7 @@
 
 **GMNN and GraphMix with self-supervision:**
 
-Go to the corresponding directory and then run the command. For example:
+Go to the corresponding directory and then run the commands. For example:
 
 ```
 cd ./GMNN-clu/
