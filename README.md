@@ -12,6 +12,15 @@ In ICML 2020.
 
 TBD
 
+## Dependencies
+
+Please setup the environment following Section 3 (Setup Python environment for GPU) in this [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md#3-setup-python-environment-for-gpu), and then install the dependencies related to graph partitioning with the following commands:
+
+```
+sudo apt-get install libmetis-dev
+pip install METIS==0.2a.4
+```
+
 ## Experiments
 
 * [GCN, GAT and GIN with self-supervision](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCNs)
