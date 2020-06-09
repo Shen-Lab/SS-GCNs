@@ -1,7 +1,3 @@
-## Dependencies
-
-The enviroment is the same as in [SS-GCNs](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCNs).
-
 ## Training \& Evaluation
 
 **GCN under adversarial attacks:**
