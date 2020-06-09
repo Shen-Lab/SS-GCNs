@@ -30,6 +30,13 @@ python main_defense_par.py --dataset citeseer --embedding-dim 3703 16 6 --lr 0.0
 python main_defense_comp.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --partition-num 48 --task-ratio 0.3 --nattack 2
 python main_defense_comp.py --dataset citeseer --embedding-dim 3703 16 6 --lr 0.01 --weight-decay 5e-4--partition-num 24 --task-ratio 0.7 --nattack 2
 ```
+
+The attack strength can be altered via setting ```--nattack```. For example:
+
+```
+python main_defense_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --task-ratio 0.5 --nattack 3
+```
+
 ## Acknowledgements
 
 The enviroment setup is reference to [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns), and the implementations of GCN, GAT and GIN are references to [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn) and [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
