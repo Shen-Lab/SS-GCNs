@@ -27,7 +27,7 @@ def run(args, seed):
     loss_func_ss = nn.L1Loss()
     early_stopping = 10
 
-    adj_raw = load_adj_raw(args['dataset']).tocoo()
+    adj_raw = load_adj_raw(args['dataset']).tocsr()
     idx_mask = list(range(node_num))
     adj_mask = adj_raw
     adj_mask[idx_mask, idx_mask] = 0
