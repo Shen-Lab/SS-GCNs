@@ -2,7 +2,7 @@
 
 Please setup the environment following Section 3 (Setup Python environment for GPU) in this [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md#3-setup-python-environment-for-gpu), and then install the dependencies related to graph partitioning with the following commands:
 
-```shell
+```
 sudo apt-get install libmetis-dev
 pip install METIS==0.2a.4
 ```
@@ -12,7 +12,7 @@ pip install METIS==0.2a.4
 
 **GCN and GCN with self-supervision:**
 
-```shell
+```
 python main.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5
 python main.py --dataset citeseer --embedding-dim 3703 16 6 --lr 0.01 --weight-decay 5e-4
 python main.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight-decay 5e-4
@@ -33,14 +33,14 @@ python main_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight
 
 Our code supports hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, run the following command for example:
 
-```shell
+```
 python main_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --grid-search True
 ```
 
 
 **GAT \& GIN and GAT \& GIN with self-supervision:**
 
-```shell
+```
 python main_gingat.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --net gin
 python main_gingat.py --dataset citeseer --embedding-dim 3703 16 6 --lr 0.01 --weight-decay 5e-4 --net gin
 python main_gingat.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight-decay 5e-4 --net gin
