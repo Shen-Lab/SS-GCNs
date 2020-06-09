@@ -1,6 +1,6 @@
 ## Dependencies
 
-TBD
+Please setup the environment following Section 3 (Setup Python environment for GPU) in the [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md).
 
 ## Training \& Evaluation
 
@@ -73,5 +73,5 @@ Hyper-parameter for self-supervision is also supported with the same usage as ab
 
 ## Acknowledgements
 
-The implementations of GCN, GAT and GIN are references to [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn) and [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
+The enviroment is reference to [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns), and the implementations of GCN, GAT and GIN are references to [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn) and [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
 
