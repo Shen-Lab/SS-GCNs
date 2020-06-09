@@ -16,7 +16,7 @@ TBD
 
 * [GCN, GAT and GIN with self-supervision](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCNs)
 
-* [GMNN and GraphMix with self-supervision]()
+* [GMNN and GraphMix with self-supervision](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GMNN-GraphMix)
 
 * [GCN with self-supervision in adversarial defense](https://github.com/Shen-Lab/SS-GCNs/tree/master/SS-GCN-adv)
 
