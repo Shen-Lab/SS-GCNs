@@ -8,10 +8,12 @@ Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Zhangyang Wang, Yang Shen
 
 In ICML 2020.
 
-## Overview of Framework
+## Overview
 
 Properly designed multi-task self-supervision benefits GCNs in gaining more generalizability and robustness.
 In this repository we verify it through performing experiments on several GCN architectures with three designed self-supervised tasks: node clustering, graph partitioning and graph completion.
+
+![](./ssgcn.png)
 
 ## Dependencies
 
