@@ -1,4 +1,4 @@
-# When Does Self-Supervision Helps Graph Convolutional Networks?
+# When Does Self-Supervision Help Graph Convolutional Networks?
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
