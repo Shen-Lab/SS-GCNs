@@ -23,7 +23,12 @@ python main_comp.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight
 python main_comp.py --dataset citeseer --embedding-dim 3703 16 6 --lr 0.01 --weight-decay 5e-4 --reduced-dimension 24 --loss-weight 0.7
 python main_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight-decay 5e-4 --reduced-dimension 28 --loss-weight 0.5
 
+```
 
+Our code also support hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, for example running the following code:
+
+```
+python main_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --grid-search True
 ```
 
 TBD
