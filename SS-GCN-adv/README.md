@@ -39,5 +39,5 @@ python main_defense_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 -
 
 ## Acknowledgements
 
-The enviroment setup is reference to [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns), and the implementations of GCN, GAT and GIN are references to [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn) and [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
+The attack algorithm, Nettack is reference to [https://github.com/danielzuegner/nettack](https://github.com/danielzuegner/nettack).
 
