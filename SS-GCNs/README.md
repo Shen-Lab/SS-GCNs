@@ -2,6 +2,14 @@
 
 Please setup the environment following Section 3 (Setup Python environment for GPU) in the [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md).
 
+Then install the dependencies related to graph partitioning:
+
+```
+sudo apt-get install libmetis-dev
+pip install METIS
+```
+
+
 ## Training \& Evaluation
 
 **GCN and GCN with self-supervision:**
@@ -25,7 +33,7 @@ python main_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight
 
 ```
 
-Our code supports hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, for example running the following code:
+Our code supports hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, run the following code for example:
 
 ```
 python main_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --grid-search True
