@@ -10,7 +10,8 @@ In ICML 2020.
 
 ## Overview of Framework
 
-TBD
+Properly designed multi-task self-supervision benefits GCNs in gaining more generalizability and robustness.
+In this repository we verify it through performing experiments on several GCN architectures with three designed self-supervised tasks: node clustering, graph partitioning and graph completion.
 
 ## Dependencies
 
