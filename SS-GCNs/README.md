@@ -1,6 +1,6 @@
 ## Dependencies
 
-Please setup the environment following Section 3 (Setup Python environment for GPU) in the [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md). Then install the dependencies related to graph partitioning with the following code:
+Please setup the environment following Section 3 (Setup Python environment for GPU) in the [instruction](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/docs/01_benchmark_installation.md). Then install the dependencies related to graph partitioning with the following command:
 
 ```
 sudo apt-get install libmetis-dev
@@ -75,9 +75,9 @@ python main_gingat_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 -
 
 ```
 
-Hyper-parameter for self-supervision is also supported with the same usage as above.
+Hyper-parameter for self-supervision is also supported with the same usage as before.
 
 ## Acknowledgements
 
-The enviroment is reference to [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns), and the implementations of GCN, GAT and GIN are references to [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn) and [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
+The enviroment setup is reference to [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns), and the implementations of GCN, GAT and GIN are references to [https://github.com/tkipf/gcn](https://github.com/tkipf/gcn) and [https://github.com/graphdeeplearning/benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
 
