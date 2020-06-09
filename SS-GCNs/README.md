@@ -31,7 +31,7 @@ python main_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 --weight
 
 ```
 
-Our code supports hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, run the following code for example:
+Our code supports hyper-parameter tuning (grid search) for self-supervision as stated in the paper. To enable hyper-parameter tuning, run the following command for example:
 
 ```
 python main_clu.py --dataset cora --embedding-dim 1433 16 7 --lr 0.008 --weight-decay 8e-5 --grid-search True
