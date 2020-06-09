@@ -103,7 +103,7 @@ if __name__ == "__main__":
         acc_test = np.zeros(50)
         for seed in range(50):
             acc_val[seed], acc_test[seed] = run(args, seed)
-            # print('seed', seed, 'val', acc_val[seed], 'test', acc_test[seed])
+            print('seed', seed, 'val', acc_val[seed], 'test', acc_test[seed])
 
         print('finish')
         print('val mean', acc_val.mean(), 'val std', acc_val.std())
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
     else:
 
-        pn_list = [8, 9, 10, 11, 12, 13, 14, 15, 16]
+        pn_list = [24, 28, 32, 36, 40, 44, 48]
         lw_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
         pn_len = len(pn_list)
         lw_len = len(lw_list)
@@ -120,7 +120,7 @@ if __name__ == "__main__":
         for i in range(pn_len):
             for j in range(lw_len):
 
-                args['partitioning_num'] = pn_list[i]
+                args['reduced_dimension'] = pn_list[i]
                 args['loss_weight'] = lw_list[j]
 
                 acc_val = np.zeros(10)
