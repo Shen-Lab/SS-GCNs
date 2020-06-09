@@ -69,3 +69,7 @@ python main_gingat_comp.py --dataset pubmed --embedding-dim 500 16 3 --lr 0.01 -
 
 ```
 
+## Acknowledgements
+
+TBD
+
