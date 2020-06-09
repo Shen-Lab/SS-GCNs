@@ -20,6 +20,8 @@ TBD
 
 * [GCN with self-supervision in adversarial defense]()
 
+* [GCN, GAT and GIN with self-supervision in inductive fully supervised node classification]()
+
 ## Citation
 
 If you are use this code for you research, please cite our paper.
