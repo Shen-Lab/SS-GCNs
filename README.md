@@ -37,5 +37,5 @@ pip install METIS==0.2a.4
 If you use this code for you research, please cite our paper.
 
 ```
-TBD
+Under revision and will be released asap.
 ```
