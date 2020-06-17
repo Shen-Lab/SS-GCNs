@@ -37,5 +37,12 @@ pip install METIS==0.2a.4
 If you use this code for you research, please cite our paper.
 
 ```
-TBD
+@misc{You2020-SS-GCN,
+    title={When Does Self-Supervision Help Graph Convolutional Networks?},
+    author={Yuning You and Tianlong Chen and Zhangyang Wang and Yang Shen},
+    year={2020},
+    eprint={2006.09136},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
 ```
