@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Code for [When Does Self-Supervision Help Graph Convolutional Networks?]()
+Code for [When Does Self-Supervision Help Graph Convolutional Networks?](https://arxiv.org/abs/2006.09136)
 
 Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Zhangyang Wang, Yang Shen
 
