@@ -1,6 +1,6 @@
 # When Does Self-Supervision Help Graph Convolutional Networks?
 
-PyTorch code for [When Does Self-Supervision Help Graph Convolutional Networks?](https://arxiv.org/abs/2006.09136) [[supplement]](https://yyou1996.github.io/files/icml2020_ssgcn_supplement.pdf)
+PyTorch implementation for [When Does Self-Supervision Help Graph Convolutional Networks?](https://arxiv.org/abs/2006.09136) [[supplement]](https://yyou1996.github.io/files/icml2020_ssgcn_supplement.pdf) [[slides]](https://yyou1996.github.io/files/icml2020_ssgcn_slides.pdf)
 
 Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Zhangyang Wang, Yang Shen
 
