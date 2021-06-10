@@ -36,7 +36,9 @@ If you use this code for you research, please cite our paper.
 @article{you2020does,
   title={When Does Self-Supervision Help Graph Convolutional Networks?},
   author={You, Yuning and Chen, Tianlong and Wang, Zhangyang and Shen, Yang},
-  journal={arXiv preprint arXiv:2006.09136},
+  journal={Proceedings of machine learning research},
+  volume={119},
+  pages={10871--10880},
   year={2020}
 }
 ```
